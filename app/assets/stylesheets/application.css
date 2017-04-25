@@ -13,11 +13,25 @@
  *= require_tree .
  *= require_self
  */
+nav .brand-logo,
+nav ul a {
+    color: #000 !important;
+    opacity: 1 !important;
+ }
+
 nav .nav-wrapper {
-    position: fixed !important;
+    /*position: fixed !important;
     width: inherit !important;
-    height: initial !important;
-    background-color: #ad1457 !important;
+    height: initial !important;*/
+    /*color: #000 !important;*/
+    /*background-color: #fff !important;*/
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0),
+                0 1px 5px 0 rgba(0,0,0,0), 
+                0 3px 1px -2px rgba(0,0,0,0)
 }
 
 h1, 
@@ -27,4 +41,8 @@ h1,
     font-weight: 400;
     line-height: 40px;
     margin-bottom: 30px;
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
 }
